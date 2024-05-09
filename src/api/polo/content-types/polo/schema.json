@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "polos",
+  "info": {
+    "singularName": "polo",
+    "pluralName": "polos",
+    "displayName": "polos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "biginteger"
+    },
+    "city": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "url": {
+      "type": "text"
+    },
+    "certificadora": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::certificadora.certificadora"
+    },
+    "regiao": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::regiao.regiao"
+    }
+  }
+}
