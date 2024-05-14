@@ -6,6 +6,7 @@ import strapiCloud from "@strapi/plugin-cloud/strapi-admin";
 import i18N from "@strapi/plugin-i18n/strapi-admin";
 import usersPermissions from "@strapi/plugin-users-permissions/strapi-admin";
 import myFirstPlugin from "../../src/plugins/my-first-plugin/strapi-admin";
+import testeRemoveMenu from "../../src/plugins/teste-remove-menu/strapi-admin";
 import { renderAdmin } from "@strapi/strapi/admin";
 
 import customisations from "../../src/admin/app.tsx";
@@ -18,5 +19,6 @@ renderAdmin(document.getElementById("strapi"), {
     i18n: i18N,
     "users-permissions": usersPermissions,
     "my-first-plugin": myFirstPlugin,
+    "teste-remove-menu": testeRemoveMenu,
   },
 });

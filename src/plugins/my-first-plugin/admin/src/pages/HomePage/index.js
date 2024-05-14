@@ -17,9 +17,9 @@ const NewFormUnica = () => {
 
   return (
     <div>
-      <h1>Meu Formulário</h1>
+      <h1 style={{textAlign: 'center', alignItems: 'center', color: 'white'}}>Formulário</h1>
       <form onSubmit={handleSubmit}>
-        <button type="submit">Obter Polos</button>
+        <button type="submit" style={{textAlign: 'center', alignItems: 'center', color: 'white'}}>Obter Polos</button>
         
       </form>
     </div>

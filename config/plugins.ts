@@ -4,5 +4,9 @@ export default {
     enabled: true,
     resolve: './src/plugins/my-first-plugin'
   },
+  'teste-remove-menu': {
+    enabled: true,
+    resolve: './src/plugins/teste-remove-menu'
+  },
   // ...
 }   
